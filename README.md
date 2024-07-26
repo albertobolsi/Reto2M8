@@ -1,4 +1,4 @@
-# Proyecto de Análisis de Felicidad y Salud en Europa
+# Proyecto de Análisis de Felicidad en Europa
 
 ## Objetivos del Proyecto
 
