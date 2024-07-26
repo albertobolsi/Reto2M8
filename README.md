@@ -1,23 +1,23 @@
-# Proyecto de Análisis de Felicidad en Europa
+# Proyecto de Análisis de Felicidad y Salud en Europa
 
 ## Objetivos del Proyecto
 
 ### Objetivo Principal
-El objetivo principal de este proyecto es investigar los factores que influyen en la felicidad de la población en Europa, utilizando datos de la ESS, y analizar cómo las desigualdades sociales y económicas impactan en el bienestar subjetivo.
+El objetivo principal de este proyecto es investigar los factores que influyen en la felicidad y la salud de la población en Europa, utilizando datos de la ESS, y analizar cómo las desigualdades sociales y económicas impactan en el bienestar subjetivo.
 
 ### Objetivos Específicos
 
-#### I. Distribución de la Felicidad
-- Evaluar cómo varía la felicidad en diferentes países europeos y su relación con la distribución de ingresos.
+#### I. Distribución de la Felicidad y la Salud
+- Evaluar cómo varían la felicidad y la salud en diferentes países europeos y su relación con la distribución de ingresos.
 - Identificar los países con mayores desigualdades de ingresos y analizar cómo estas desigualdades afectan la felicidad y la salud de la población.
 
-#### II. Género y Felicidad
+#### II. Género y Bienestar
 - Estudiar las diferencias en la felicidad y la salud entre hombres y mujeres.
 - Analizar la correlación entre género y nivel de ingresos, y cómo esta relación influye en el bienestar subjetivo.
 
-#### III. Impacto de la Educación en la Felicidad
-- Investigar cómo el nivel educativo influye en la felicidad y en la percepción de bienestar.
-- Determinar si existen disparidades significativas en la felicidad entre diferentes niveles educativos y géneros.
+#### III. Impacto de la Educación en la Felicidad y la Salud
+- Investigar cómo el nivel educativo influye en la felicidad, la salud y la percepción de bienestar.
+- Determinar si existen disparidades significativas en la felicidad y la salud entre diferentes niveles educativos y géneros.
 
 ## Estructura del Repositorio
 
@@ -26,7 +26,3 @@ El objetivo principal de este proyecto es investigar los factores que influyen e
 - **Dashboard**: Código y archivos relacionados con la visualización interactiva de los resultados.
 - **Informe**: Código y documento en PDF del informe final.
 - **Presentación**: Código y archivos utilizados para la presentación del proyecto.
-
-
-
-
