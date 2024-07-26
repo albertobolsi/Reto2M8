@@ -23,7 +23,7 @@ library(sf)
 library(shiny)
 
 # Leer los datos depurados
-data_path <- 'C:/Users/abolsi/Reto2M8/Datos/Base de datos depurada/datos_clean.csv'
+data_path <- 'Datos/Base de datos depurada/datos_clean.csv'
 datos_dashboard <- read_csv(data_path)
 
 # Invertir la escala de la variable 'health'
