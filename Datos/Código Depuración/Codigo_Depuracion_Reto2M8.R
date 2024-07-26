@@ -13,18 +13,15 @@ if(!require(readr)){
 
 
 # Cargamos los datos
-data_path <- 'Datos/Base de datos original/datos.csv'
-data <- read_csv(data_path)
-
-# Mostrar las primeras filas del DataFrame para verificar la correcta carga de los datos
-head(data)
+data_path_originales <- 'Datos/Base de datos original/datos.csv'
+datos_originales <- read_csv(data_path)
 
 # 1. Depuramos los datos
 
 # Seleccionamos solo las columnas necesarias
 
 variables_interes <- c("cntry", "agea", "gndr", "eisced", "hinctnta", "evmar", "health", "happy")
-datos_filtrados <- data %>%
+datos_filtrados <- datos_originales %>%
   select(all_of(variables_interes))
 
 # Filtramos las observaciones no válidas (los numeros que aparecen se corresponden a valores nulos o del tipo 'No sabe / No contesta')
@@ -49,7 +46,6 @@ datos_depurados <- datos_depurados %>%
     happy = as.factor(happy)
   )
 
-summary(datos_depurados)
 
 # Guardar los datos depurados en un nuevo archivo CSV
-write_csv(datos_depurados, 'Datos/Base de datos depurada/datos_clean.csv')
+write_csv(datos_depurados, 'Datos/Base de datos depurada/datos_clean2.csv')
